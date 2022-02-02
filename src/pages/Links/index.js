@@ -1,3 +1,5 @@
+import './links.css';
+
 export default function Links(){
     return(
       <div>
