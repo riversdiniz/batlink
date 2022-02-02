@@ -9,7 +9,7 @@ export default function Home(){
 
         <div className="logo">
           <img src="/logo.png" alt="Sujeito Link" />
-          <h1>SujeitoLink</h1>
+          <h1>Encurtador de URL</h1>
           <span>Cole seu link para encurtar 👇</span>
         </div>
 
