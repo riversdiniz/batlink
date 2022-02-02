@@ -3,6 +3,7 @@ import { FiLink } from 'react-icons/fi';
 import './home.css';
 
 import Menu from '../../components/Menu'
+import LinkItem from '../../components/Menu/LinkItem';
 
 export default function Home(){
   const [link, setLink] = useState('');
@@ -35,6 +36,7 @@ export default function Home(){
         </div>
        
         <Menu/>
+        <LinkItem/>
 
       </div>
     )
