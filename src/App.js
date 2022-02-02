@@ -1,8 +1,9 @@
+import RoutesApp from './routes';
 
 export default function App(){
   return(
     <div className="app">
-      <h1>Sujeito Link</h1>
+      <RoutesApp/>
     </div>
   )
 }
