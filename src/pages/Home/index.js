@@ -10,7 +10,7 @@ export default function Home(){
         <div className="logo">
           <img src="/logo.png" alt="Sujeito Link" />
           <h1>SujeitoLink</h1>
-          <span>Cole seu link para encurtar</span>
+          <span>Cole seu link para encurtar 👇</span>
         </div>
 
         <div className='area-input'>
