@@ -23,6 +23,8 @@ export default function Home(){
       setData(response.data);
       setShowModal(true);
 
+      saveLink('@encurtaLink', response.data)
+
       setLink('')
 
     }catch{
