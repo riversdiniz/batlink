@@ -1,5 +1,7 @@
 // Buscar os links salvos.
 
+import Links from "../pages/Links";
+
 export async function getLinksSave(key){
     const myLinks = await localStorage.getItem(key)
 
@@ -28,3 +30,16 @@ export async function saveLink(key, newLink){
 }
 
 // Deletar algum link salvo.
+export function deleteLink(links, id){
+
+    let myLinks = links.filter( item => {
+        return (item.id !== id)
+
+    })
+
+    localStorage.setItem('@encurtaLink', JSON.stringify(myLinks));
+    console.log("LINK DELETADO COM SUCESSO!")
+
+    return myLinks;
+
+}
