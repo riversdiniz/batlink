@@ -41,6 +41,7 @@ export default function Home(){
           <h1>Encurtador de URL</h1>
           <span>Cole seu link para encurtar 👇</span>
         </div>
+        
 
         <div className='area-input'>
             <div>
